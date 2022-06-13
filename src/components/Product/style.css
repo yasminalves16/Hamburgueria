@@ -1,0 +1,169 @@
+.card {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 3px solid #e0e0e0;
+  transition: 2s;
+  border-radius: 15px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.card figure {
+  background-color: #f5f5f5;
+  width: 70vw;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  margin: 0;
+  width: 200px;
+}
+
+.card p {
+  padding-left: 20px;
+  margin: 10px;
+}
+
+.name {
+  color: #333333;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.categoria {
+  color: #828282;
+}
+
+.preco {
+  color: #27ae60;
+  font-weight: 600;
+}
+
+.card button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  width: 33vw;
+  height: 6vh;
+  font-size: 15px;
+  border-radius: 8px;
+}
+
+.cardCarrinho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardCarrinho p {
+  margin-left: -60px;
+}
+
+.cardCarrinho figure {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  width: 23%;
+  margin: 16px;
+}
+
+.cardCarrinho img {
+  width: 100%;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+}
+
+.cardCarrinho button {
+  border: none;
+  color: #bdbdbd;
+  background-color: #f5f5f5;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.cardCarrinho button:hover{
+  color: black;
+}
+
+.cardCarrinho .preco {
+  display: none;
+}
+
+.divProduct {
+  background: #f5f5f5;
+}
+
+.divProduct .total {
+  border-top: 2px solid #e0e0e0;
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+  align-items: center;
+}
+
+.divProduct .total p {
+  color: #333333;
+  font-weight: 700;
+}
+
+.divProduct .total span {
+  color: #828282;
+  font-weight: 600;
+}
+
+.divProduct .deleteAll {
+  background-color: #e0e0e0;
+  border: none;
+  color: #828282;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+  height: 5vh;
+  align-items: center;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 700px) {
+
+  .card {
+    width: 30%;
+    border-radius: 15px;
+    transition: 2s;
+  }
+
+  .card:hover {
+    border: 3px solid #000000;
+  }
+
+  .card figure {
+    width: 100%;
+  }
+
+  .card button {
+    width: 7vw;
+    height: 4vh;
+    margin-top: 10px;
+  }
+
+  .card button:hover{
+    background: #93D7AF;
+
+  }
+
+  .cardCarrinho {
+    margin: 15px 0px 15px 0px;
+  }
+
+  .deleteAll:hover{
+    background-color: #828282;
+    color: white;
+
+  }
+}

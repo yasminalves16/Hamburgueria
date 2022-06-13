@@ -1,0 +1,15 @@
+.product-list {
+  display: flex;
+}
+
+@media screen and (min-width: 700px) {
+
+  .product-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    margin: 10px 0px 0px 60px;
+    justify-content: space-between;
+    transition: 2s;
+  }
+}
