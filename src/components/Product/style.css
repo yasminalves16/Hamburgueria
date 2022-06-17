@@ -5,6 +5,7 @@
   border: 3px solid #e0e0e0;
   transition: 2s;
   border-radius: 15px;
+  
 }
 
 button {
@@ -17,6 +18,7 @@ button {
   margin: 0;
   display: flex;
   justify-content: center;
+  border-radius: 15px 15px 0px 0px
 }
 
 .card img {
@@ -135,7 +137,7 @@ button {
   .card {
     width: 30%;
     border-radius: 15px;
-    transition: 2s;
+    transition: 1s;
   }
 
   .card:hover {
@@ -144,6 +146,7 @@ button {
 
   .card figure {
     width: 100%;
+    border-radius: 15px 15px 0px 0px
   }
 
   .card button {
